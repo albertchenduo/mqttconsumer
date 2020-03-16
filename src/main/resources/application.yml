@@ -1,0 +1,14 @@
+
+
+#mq配置
+com:
+  mqtt:
+    broker: tcp://127.0.0.1:1883
+    clientId: JavaSample
+    topic: device/
+    username: test
+    password: test
+    timeout: 10
+    keepalive: 20
+server:
+  port: 8081
